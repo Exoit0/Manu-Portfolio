@@ -10,13 +10,13 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       url: 'https://linkedin.com/in/manu-rajeshnaik',
-      iconSrc: '/icons/linkedin.png', // from your ContactSection code
+      iconSrc: './icons/linkedin.png', // from your ContactSection code
       alt: 'LinkedIn icon',
     },
     {
       name: 'GitHub',
       url: 'https://github.com/exoit0',
-      iconSrc: '/icons/github.png',
+      iconSrc: './icons/github.png',
       alt: 'GitHub icon',
     },
     {
@@ -28,7 +28,7 @@ const Footer = () => {
     {
       name: 'Twitter',
       url: 'https://twitter.com/exoit0',
-      iconSrc: '/icons/twitter.png',
+      iconSrc: './icons/twitter.png',
       alt: 'Twitter icon',
     },
   ]

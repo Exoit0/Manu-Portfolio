@@ -23,7 +23,7 @@ const ContactSection = () => {
       url: 'https://www.linkedin.com/in/manu-rajeshnaik/',
       icon: (
         <img
-          src="icons\linkedin.png"
+          src=".\icons\linkedin.png"
           alt="LinkedIn icon"
           className="w-8 h-8 mx-auto object-contain"
         />
@@ -35,7 +35,7 @@ const ContactSection = () => {
       url: 'https://github.com/manurajeshnaik',
       icon: (
         <img
-          src="/icons/github.png"
+          src="./icons/github.png"
           alt="GitHub icon"
           className="w-8 h-8 mx-auto object-contain"
         />
@@ -59,7 +59,7 @@ const ContactSection = () => {
       url: 'https://twitter.com/exoit0',
       icon: (
         <img
-          src="/icons/twitter.png"
+          src="./icons/twitter.png"
           alt="Twitter icon"
           className="w-8 h-8 mx-auto object-contain"
         />
@@ -72,7 +72,7 @@ const ContactSection = () => {
     {
       icon: (
         <img
-          src="/icons/location.png"
+          src="./icons/location.png"
           alt="Location icon"
           className="w-6 h-6 object-contain"
         />
@@ -97,7 +97,7 @@ const ContactSection = () => {
     {
       icon: (
         <img
-          src="/icons/status.png"
+          src="./icons/status.png"
           alt="Status icon"
           className="w-6 h-6 object-contain"
         />

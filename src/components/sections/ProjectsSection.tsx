@@ -34,7 +34,7 @@ const ProjectsSection = () => {
       ],
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'GSAP', 'Responsive Design'],
       features: ['Advanced Animations', 'Responsive Layout', 'Modern UI/UX', 'Performance Optimized'],
-      image: '/images/Zyfero.png',
+      image: './images/Zyfero.png',
       liveUrl: 'https://exoit0.github.io/Zyfero/',
       githubUrl: 'https://github.com/Exoit0/Zyfero',
       isReverse: false
@@ -52,7 +52,7 @@ const ProjectsSection = () => {
       ],
       technologies: ['JavaScript', 'GSAP', 'Locomotive.js', 'CSS3', 'HTML5'],
       features: ['Smooth Scrolling', 'Advanced Animations', 'Interactive Elements'],
-      image: '/images/Portfolio.png',
+      image: './images/Portfolio.png',
       liveUrl: 'https://exoit0.github.io/Portfolio-Website/',
       githubUrl: 'https://github.com/Exoit0/Portfolio-Website',
       isReverse: true

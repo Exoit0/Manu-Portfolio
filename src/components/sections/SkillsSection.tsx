@@ -23,7 +23,7 @@ const SkillsSection = () => {
   const skillCategories: SkillCategory[] = [
     {
       title: 'Frontend Development',
-      icon: <img src="/icons/frontend.png" className="h-10 w-10" draggable={false} />,
+      icon: <img src="./icons/frontend.png" className="h-10 w-10" draggable={false} />,
       skills: [
         {
           name: 'React',
@@ -51,7 +51,7 @@ const SkillsSection = () => {
         },
         {
           name: 'HTML5',
-          icon: <img src="/icons/html.png" alt="HTML5" className="h-6 w-6" draggable={false} />,
+          icon: <img src="./icons/html.png" alt="HTML5" className="h-6 w-6" draggable={false} />,
           description: 'Semantic markup and accessibility',
         },
         {
@@ -68,19 +68,19 @@ const SkillsSection = () => {
         },
         {
           name: 'Tailwind CSS',
-          icon: <img src="/icons/tailwindcss.png" alt="Tailwind CSS" className="h-6 w-6" draggable={false} />,
+          icon: <img src="./icons/tailwindcss.png" alt="Tailwind CSS" className="h-6 w-6" draggable={false} />,
           description: 'Utility-first CSS framework',
         },
         {
           name: 'Bootstrap',
-          icon: <img src="/icons/bootstrap.png" alt="Bootstrap" className="h-6 w-6" draggable={false} />,
+          icon: <img src="./icons/bootstrap.png" alt="Bootstrap" className="h-6 w-6" draggable={false} />,
           description: 'Responsive component library',
         },
       ],
     },
     {
       title: 'Backend Development',
-      icon: <img src="/icons/backend.png" alt="Backend" className="h-10 w-10" draggable={false} />,
+      icon: <img src="./icons/backend.png" alt="Backend" className="h-10 w-10" draggable={false} />,
       skills: [
         {
           name: 'Spring Boot',
@@ -96,7 +96,7 @@ const SkillsSection = () => {
         },
         {
           name: 'Node.js',
-          icon: <img src="/icons/nodejs.png" alt="Node.js" className="h-6 w-6" draggable={false} />,
+          icon: <img src="./icons/nodejs.png" alt="Node.js" className="h-6 w-6" draggable={false} />,
           description: 'Server-side JavaScript runtime',
         },
         {
@@ -125,7 +125,7 @@ const SkillsSection = () => {
         },
         {
           name: 'RESTful APIs',
-          icon: <img src="/icons/restapi.png" alt="RESTful APIs" className="h-6 w-6" draggable={false} />,
+          icon: <img src="./icons/restapi.png" alt="RESTful APIs" className="h-6 w-6" draggable={false} />,
           description: 'API design and implementation',
         },
         {
@@ -144,7 +144,7 @@ const SkillsSection = () => {
     },
     {
       title: 'Database & Tools',
-      icon: <img src="/icons/database.png" alt="Tools" className="h-10 w-10" draggable={false} />,
+      icon: <img src="./icons/database.png" alt="Tools" className="h-10 w-10" draggable={false} />,
       skills: [
         {
           name: 'PostgreSQL',
@@ -184,7 +184,7 @@ const SkillsSection = () => {
         },
         {
           name: 'GitHub',
-          icon: <img src="/icons/github.png" alt="GitHub" className="h-6 w-6" draggable={false} />,
+          icon: <img src="./icons/github.png" alt="GitHub" className="h-6 w-6" draggable={false} />,
           description: 'Code repository and project management',
         },
         {

@@ -72,7 +72,7 @@ const ContactSection = () => {
     {
       icon: (
         <img
-          src="./icons/location.png"
+          src="https://png.pngtree.com/png-vector/20240929/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-png-image_13983760.png"
           alt="Location icon"
           className="w-6 h-6 object-contain"
         />

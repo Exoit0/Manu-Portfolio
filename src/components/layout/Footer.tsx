@@ -10,13 +10,13 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       url: 'https://linkedin.com/in/manu-rajeshnaik',
-      iconSrc: './icons/linkedin.png', // from your ContactSection code
+      iconSrc: 'https://www.vikingcamps.com/wp-content/uploads/2024/01/linkedin-logo-linkedin-icon-transparent-free-png.webp', // from your ContactSection code
       alt: 'LinkedIn icon',
     },
     {
       name: 'GitHub',
       url: 'https://github.com/exoit0',
-      iconSrc: './icons/github.png',
+      iconSrc: 'https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-512.png',
       alt: 'GitHub icon',
     },
     {
@@ -28,7 +28,7 @@ const Footer = () => {
     {
       name: 'Twitter',
       url: 'https://twitter.com/exoit0',
-      iconSrc: './icons/twitter.png',
+      iconSrc: 'https://images.icon-icons.com/4029/PNG/512/twitter_x_new_logo_x_round_circle_blue_icon_256074.png',
       alt: 'Twitter icon',
     },
   ]
@@ -74,7 +74,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-[#4F90FF]">
               {/* Replace 📍 emoji with image icon */}
               <img
-                src="/icons/location.png"
+                src="https://png.pngtree.com/png-vector/20240929/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-png-image_13983760.png"
                 alt="Location icon"
                 className="w-6 h-6 object-contain"
               />

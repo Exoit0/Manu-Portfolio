@@ -49,17 +49,14 @@ const Header = () => {
     <Navbar className="fixed top-0 z-50 font-poppins">
       {/* Desktop Navigation */}
       <NavBody visible={isScrolled}>
-        <a
-          href="#hero"
-          onClick={() => scrollToSection("#hero")}
-          className="relative z-20 mr-4 flex items-center px-2 py-1 text-xs text-black"
-        >
-          <img
-            src={`${process.env.PUBLIC_URL}/images/logo.png`} 
-            alt="Logo"
-            className="h-8 w-auto"
-          />
-        </a>
+<a
+  href="#hero"
+  onClick={() => scrollToSection("#hero")}
+  className="relative z-20 mr-4 flex items-center px-2 py-1 text-sm font-semibold gradient-text tracking-tight"
+>
+  MRN
+</a>
+
 
         <div className="hidden lg:flex space-x-3">
           {navItems.map((item, idx) => (

@@ -55,9 +55,9 @@ const Header = () => {
           className="relative z-20 mr-4 flex items-center px-2 py-1 text-xs text-black"
         >
           <img
-            src="./images/logo.png"
+            src={`${process.env.PUBLIC_URL}/images/logo.png`} 
             alt="Logo"
-            className="h-8 w-auto" // smaller size
+            className="h-8 w-auto"
           />
         </a>
 
